@@ -127,10 +127,4 @@ class SavingsAccount(val accountNumber: String, val accountName: String, var bal
             } else {
                 println("Insufficient balance")
             }
-        } else {
-            println("Maximum withdrawals reached")
-        }
-        fun details() {
-            println("Account number $accountNumber with balance $balance is operated by $accountName")
-    }
 
